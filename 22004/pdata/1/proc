@@ -1,12 +1,12 @@
-##TITLE= Parameter file, TopSpin 3.6.2
+##TITLE= Parameter file, TopSpin 4.1.1
 ##JCAMPDX= 5.0
 ##DATATYPE= Parameter Values
-##NPOINTS= 7	$$ modification sequence number
+##NPOINTS= 16	$$ modification sequence number
 ##ORIGIN= Bruker BioSpin GmbH
 ##OWNER= nmr-user
-$$ 2020-06-29 20:50:54.776 +0800  CHEM\nmr-user@CUTTLEFISH-CRL
-$$ C:\NMR\data\mfgroup\nmr/jy-200629-gramicidine-2/22004/pdata/1/proc
-$$ process C:\Bruker\TopSpin3.6.2\prog\mod\siparproc.exe
+$$ 2021-04-02 13:54:28.951 +0100  yongrenjie@Empoleon.local
+$$ /Users/yongrenjie/penguins/penguins-testdata/22004/pdata/1/proc
+$$ process /opt/topspin4.1.1/prog/mod/proc2d
 ##$ABSF1= 1000
 ##$ABSF2= -1000
 ##$ABSG= 5
@@ -87,8 +87,8 @@ $$ process C:\Bruker\TopSpin3.6.2\prog\mod\siparproc.exe
 ##$NZP= 1
 ##$OFFSET= 9.502072
 ##$PC= 1.4
-##$PHC0= 116.1534
-##$PHC1= 17.92124
+##$PHC0= 119.267
+##$PHC1= 13.92124
 ##$PH_mod= 1
 ##$PKNL= yes
 ##$PPARMOD= 1

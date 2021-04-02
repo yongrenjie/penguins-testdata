@@ -22,7 +22,32 @@ $$ C:\NMR\data\mfgroup\nmr/jy-200629-gramicidine-2/22004/pdata/1/auditp.txt
       <apkm 
        data hash MD5: 4K * 1K
        22 BD DC BE B6 36 B7 42 E0 BD FA AF 15 B1 D6 15>)
+$$ /Users/yongrenjie/penguins/penguins-testdata/22004/pdata/1/auditp.txt
+(   5,<2021-04-02 13:53:08.648 +0100>,<yongrenjie>,<Empoleon.local>,<proc2d>,<TopSpin 4.1.1>,
+      <pk1 fgphup F1: PHC0 = 19.39766 PHC1 = -26.4
+       data hash MD5: 4K * 1K
+       35 F8 AF 37 56 97 39 1A 4C D3 CB FF E4 BA BB 3B>)
+(   6,<2021-04-02 13:53:22.974 +0100>,<yongrenjie>,<Empoleon.local>,<proc2d>,<TopSpin 4.1.1>,
+      <pk2 fgphup F2: PHC0 = -1.705859 PHC1 = 5.6
+       data hash MD5: 4K * 1K
+       AA 13 EF F6 B1 3E B7 CA 44 2D 78 B6 BE 53 07 FD>)
+(   7,<2021-04-02 13:54:08.495 +0100>,<yongrenjie>,<Empoleon.local>,<proc2d>,<TopSpin 4.1.1>,
+      <pk2 fgphup F2: PHC0 = 3.349609 PHC1 = -8
+       data hash MD5: 4K * 1K
+       38 89 38 26 0B BA E0 89 A6 DD 01 DA 27 82 03 D1>)
+(   8,<2021-04-02 13:54:28.953 +0100>,<yongrenjie>,<Empoleon.local>,<proc2d>,<TopSpin 4.1.1>,
+      <pk2 fgphup F2: PHC0 = 1.469922 PHC1 = -1.6
+       data hash MD5: 4K * 1K
+       40 4E 54 B3 8B A7 D9 6C 2F 23 03 34 7B F8 C7 B5>)
+(   9,<2021-04-02 13:54:32.238 +0100>,<yongrenjie>,<Empoleon.local>,<proc2d>,<TopSpin 4.1.1>,
+      <abs2 F2: ABSG = 5 ABSF1 = 10.00207 ABSF2 = -0.00207409
+       data hash MD5: 4K * 1K
+       BD D6 FA 1C 77 90 B2 BA 5D AF E0 5F 4E 4F CE E5>)
+(  10,<2021-04-02 13:54:32.814 +0100>,<yongrenjie>,<Empoleon.local>,<proc2d>,<TopSpin 4.1.1>,
+      <abs1 F1: ABSG = 5 ABSF1 = 10.00207 ABSF2 = -0.00207409
+       data hash MD5: 4K * 1K
+       0E 47 7E AB 8F C8 48 D9 5D F0 4E 05 48 9F 50 ED>)
 ##END=
 
 $$ hash MD5
-$$ 20 2C 44 24 89 02 92 77 CD D9 29 B1 E1 22 DD B0
+$$ D7 96 A2 D8 DC FA C1 61 8E 41 97 83 45 AC F8 EF
