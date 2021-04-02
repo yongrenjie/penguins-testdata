@@ -1,0 +1,15 @@
+##TITLE= Audit trail, TopSpin 3.6.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ C:\NMR\data\mfgroup\nmr/jy-200629-gramicidine-2/22002/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2020-06-29 20:50:40.683 +0800>,<CHEM\nmr-user>,<CUTTLEFISH-CRL>,<splitx_au>,<TopSpin 3.6.2>,
+      <created by splitx 4 2. dataset from
+       C:\NMR\data\mfgroup\nmr/jy-200629-gramicidine-2/22
+       data hash MD5: 1K * 256
+       7D DB 8C B8 C3 1C ED 11 30 C5 3A 9F 5C D6 85 B2>)
+##END=
+
+$$ hash MD5
+$$ 88 3D 18 B6 E5 BE 37 25 5E 14 FF AF 3F 4C 02 CE

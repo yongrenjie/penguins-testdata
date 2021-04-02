@@ -1,0 +1,24 @@
+##TITLE= Audit trail, TopSpin 3.6.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ C:\NMR\data\mfgroup\nmr/jy-200629-gramicidine-2/22002/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2020-06-29 20:50:40.683 +0800>,<CHEM\nmr-user>,<CUTTLEFISH-CRL>,<splitx_au>,<TopSpin 3.6.2>,
+      <created by splitx 4 2. dataset from
+       C:\NMR\data\mfgroup\nmr/jy-200629-gramicidine-2/22
+       data hash MD5: 1K * 256
+       7D DB 8C B8 C3 1C ED 11 30 C5 3A 9F 5C D6 85 B2>)
+(   2,<2020-06-29 20:50:42.229 +0800>,<CHEM\nmr-user>,<CUTTLEFISH-CRL>,<proc2d>,<TopSpin 3.6.2>,
+      <Start of raw data processing
+       xfb same F2: SI = 4K WDW = 4 SSB = 2 FT_mod = 6 PKNL = 1 PHC0 = 105.7712 PHC1 = 4.9 F1: SI = 1K ME_mod = 2 NCOEF = 32 WDW = 4 SSB = 2 FT_mod = 6 FCOR = 0.5 PHC0 = -19.16602 PHC1 = 31.8
+       data hash MD5: 4K * 1K
+       5B 1C A1 95 81 A9 8C 1D B2 38 7A 94 0B 2F C9 F4>)
+(   3,<2020-06-29 20:50:46.026 +0800>,<CHEM\nmr-user>,<CUTTLEFISH-CRL>,<apkm>,<TopSpin 3.6.2>,
+      <apkm 
+       data hash MD5: 4K * 1K
+       32 7A 7C 93 7F 62 B6 B9 21 0C 78 32 99 D8 F9 B8>)
+##END=
+
+$$ hash MD5
+$$ 8B 2A 8E 4F 94 80 ED 19 98 1A 5E C2 A6 A3 2E 94

@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 3.6.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ 2020-06-29 21:03:03.376 +0800  CHEM\nmr-user@CUTTLEFISH-CRL
+$$ C:\NMR\data\mfgroup\nmr/jy-200629-gramicidine-2/22001/pdata/100/outd
+$$ process C:\Bruker\TopSpin3.6.2\prog\mod\mvrow.exe
+##$CURPLOT= <A4>
+##$CURPRIN= <$1#1#0#1#1#1#1#1#0#-1#-1#1#-1>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_X.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

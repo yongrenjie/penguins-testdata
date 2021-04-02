@@ -1,0 +1,18 @@
+##TITLE= Parameter file, TopSpin 3.6.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ 2020-06-29 21:13:21.357 +0800  CHEM\nmr-user@CUTTLEFISH-CRL
+$$ C:\NMR\data\mfgroup\nmr/jy-200629-gramicidine-2/22002/pdata/1901/used_from
+$$ process C:\Bruker\TopSpin3.6.2\prog\mod\mvrow.exe
+##$CUREXP= <column>
+##$DATPATH= <C:\NMR\data\mfgroup\nmr>
+##$DETAILS= <negative projection of all 4096 columns>
+##$EXPNO= 22002
+##$NAME= <jy-200629-gramicidine-2>
+##$PROCNO= 1
+##$PROCNO2= 1
+##$PROCNO3= 4096
+##END=

@@ -1,0 +1,40 @@
+##TITLE= Audit trail, TopSpin 4.0.8
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= yongrenjie
+$$ /Users/yongrenjie/dphil/exp/200629/nmr/jy-200629-gramicidine-2/22001/pdata/2/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2020-06-29 20:50:28.574 +0800>,<CHEM\nmr-user>,<CUTTLEFISH-CRL>,<splitx_au>,<TopSpin 3.6.2>,
+      <created by splitx 4 1. dataset from
+       C:\NMR\data\mfgroup\nmr/jy-200629-gramicidine-2/22
+       data hash MD5: 1K * 256
+       58 9B A4 19 87 BC B2 97 E9 00 77 E6 8B 76 94 75>)
+(   2,<2020-06-29 23:06:14.897 +0800>,<CHEM\nmr-user>,<CUTTLEFISH-CRL>,<proc2d>,<TopSpin 3.6.2>,
+      <Start of raw data processing
+       xfb F2: SI = 4K WDW = 4 SSB = 2 FT_mod = 6 PKNL = 1 PHC0 = -2.374928 PHC1 = -302.1092 F1: SI = 1K ME_mod = 2 NCOEF = 32 WDW = 4 SSB = 2 FT_mod = 6 FCOR = 0.5 PHC0 = -24.64657 PHC1 = 31.8
+       data hash MD5: 4K * 1K
+       32 69 E3 2E 2B 68 A1 D1 EC B7 F5 EF EF 97 B9 BA>)
+(   3,<2020-06-29 23:06:25.928 +0800>,<CHEM\nmr-user>,<CUTTLEFISH-CRL>,<apkm>,<TopSpin 3.6.2>,
+      <apkm 
+       data hash MD5: 4K * 1K
+       9E 86 02 18 64 27 6C A9 0C 27 08 74 F8 27 95 DD>)
+(   4,<2020-06-29 23:06:27.756 +0800>,<CHEM\nmr-user>,<CUTTLEFISH-CRL>,<proc2d>,<TopSpin 3.6.2>,
+      <abs2 F2: ABSG = 5 ABSF1 = 10.00207 ABSF2 = -0.00207409
+       data hash MD5: 4K * 1K
+       CF 40 21 CC 56 EC 0F 81 EC E2 05 88 16 8A E7 EE>)
+(   5,<2020-06-29 23:06:28.677 +0800>,<CHEM\nmr-user>,<CUTTLEFISH-CRL>,<proc2d>,<TopSpin 3.6.2>,
+      <abs1 F1: ABSG = 5 ABSF1 = 140.0024 ABSF2 = 99.9976
+       data hash MD5: 4K * 1K
+       E7 64 73 93 E1 B9 DA 57 2A 77 CA 2E B5 F3 A8 16>)
+(   6,<2020-07-01 02:36:47.523 +0800>,<yongrenjie>,<jymbp.local>,<dirdata>,<TopSpin 4.0.8>,
+      <wrp from 1 22001 "jy-200629-gramicidine-2" "/Users/yongrenjie/dphil/exp/200629/nmr"
+       data hash MD5: 4K * 1K
+       E7 64 73 93 E1 B9 DA 57 2A 77 CA 2E B5 F3 A8 16>)
+(   7,<2020-07-01 02:36:49.568 +0800>,<yongrenjie>,<jymbp.local>,<proc2d>,<TopSpin 4.0.8>,
+      <mc2 F2: PH_mod = 2
+       data hash MD5: 4K * 1K
+       AE 56 B8 F1 4C F1 B4 60 6F 93 0A 43 2C 09 C4 61>)
+##END=
+
+$$ hash MD5
+$$ 26 DE 7F B3 1E 5C 2B FB C9 60 66 84 66 A2 90 7B

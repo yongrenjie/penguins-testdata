@@ -1,0 +1,23 @@
+##TITLE= Parameter file, TopSpin 3.6.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 259	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ 2020-06-29 13:49:50.248 +0100  CHEM\nmr-user@CUTTLEFISH-CRL
+$$ C:/NMR/data/mfgroup/nmr/jy-200629-gramicidine-2/22/acqu2s
+$$ process C:\Bruker\TopSpin3.6.2\prog\mod\go4.exe
+##$ACQT0= 0
+##$BF1= 176.012625
+##$FnMODE= 6
+##$NUC1= <13C>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 1024
+##$O1= 15841.13625
+##$ProjAngle= 0
+##$SFO1= 176.02846613625
+##$SW= 179.775296091933
+##$SW_h= 31645.5696202532
+##$TD= 1024
+##END=
