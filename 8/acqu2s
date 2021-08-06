@@ -1,0 +1,24 @@
+##TITLE= Parameter file, TopSpin 4.0.8
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 2	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ 2021-04-05 12:25:22.622 +0100  CHEM\nmr-user@ANCHOVY-CRL
+$$ C:/NMR/data/mfgrp/nmr/210405-4f-noah-hmbc-lpjf3/2001/acqu2s
+$$ process C:\Bruker\TopSpin4.0.8\prog\au\bin\41469BAC58153F06A39574483EDCFB37\splitx_au.exe
+##$ACQT0= 0
+##$BF1= 100.612768526
+##$FnILOOP= 0
+##$FnMODE= 6
+##$NUC1= <13C>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 512
+##$O1= 10061.277
+##$ProjAngle= 0
+##$SFO1= 100.622829803
+##$SW= 179.997329147491
+##$SW_h= 18112.10936454
+##$TD= 256
+##END=

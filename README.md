@@ -20,6 +20,8 @@ In practice, the main repository contains this one as a submodule.
 | 4 | Processed data from expno 3 |
 | 5 | 2D dataset that wasn't run |
 | 6 | 2D HSQC with TD2 not equal to a multiple of 1024 |
+| 7 | 1D proton with dtypa=2 |
+| 8 | 2D HMBC with dtypa=2 (from NOAH-2 BS) |
 | 22 | NOAH-4 MSCN on gramicidin (used for the README) |
 | 22001 | 15N HMQC from 22 |
 | 22002 | 13C HSQC from 22 |

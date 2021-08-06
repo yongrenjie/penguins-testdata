@@ -1,0 +1,46 @@
+
+WaveMaker (rev 4.0.8) log file: 2021-04-05 11:51:49
+
+Pulprog: C:/NMR/data/mfgrp/nmr/_JonY/pp/ngn/ngn_noah2-BS 
+Opening: C:/NMR/data/mfgrp/nmr/210405-4f-noah-hmbc-lpjf3/2/wvm.par
+
+sp3(p14): 
+ spnam3: wu180C13.wv (500 steps, stepsize 1.0000 us, phi(max) = 0.00 deg)
+ p14: 0.5000000 ms
+ spw3: 14.5742744 W (-11.64 dB), B1max = 11114.8 Hz (ref: p90=10.00 us @ -18.68 dB)
+ B1rms = 9781.8 Hz, 11.2881040 W (-10.53 dB)
+ SP saved in C:/Bruker/TopSpin4.0.8/exp/stan/nmr/lists/wave/user/wu180C13.wv
+
+sp18(p31): 
+ spnam18: wu180Jcomp.wv (505 steps, stepsize 2.5000 us, phi(max) = 0.00 deg)
+ p31: 1.2625000 ms
+ spw18: 2.4992581 W (-3.98 dB), B1max = 4602.7 Hz (ref: p90=10.00 us @ -18.68 dB)
+ B1rms = 4218.1 Hz, 2.0989926 W (-3.22 dB)
+ SP saved in C:/Bruker/TopSpin4.0.8/exp/stan/nmr/lists/wave/user/wu180Jcomp.wv
+
+cpd2: 
+ cpdprg2: wudec.cpd 
+ pcpd2: 28.0000000 ms 
+ spnam15: wudec.wv (5000 steps, stepsize 5.6000 us, phi(max) = 0.00 deg)
+ plw12: 0.9601154 W (0.18 dB), B1max = 2852.8 Hz (ref: p90=10.00 us @ -18.68 dB)
+ B1rms = 2513.2 Hz, 0.7451153 W (1.28 dB)
+ SP saved in C:/Bruker/TopSpin4.0.8/exp/stan/nmr/lists/wave/user/wudec.wv
+ CPD saved in C:/Bruker/TopSpin4.0.8/exp/stan/nmr/lists/cpd/user/wudec.cpd
+
+Experiment Setup:
+
+ spnam3 = wu180C13.wv 
+ p14 = 500.0000 us 
+ spw3 = 14.5743 W (11114.82 Hz)
+ spnam18 = wu180Jcomp.wv 
+ p31 = 1262.5000 us 
+ spw18 = 2.49926 W (4602.72 Hz)
+ spnam15 = wudec.wv 
+ spw15 = 0.960115 W (2852.80 Hz)
+ cpdprg2 = wudec.cpd 
+ pcpd2 = 28000.0000 us 
+ plw12 = 0.960115 W
+
+
+Wavemaker auto-setup completed
+

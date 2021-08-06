@@ -1,0 +1,300 @@
+; ngn_noah2-BS
+
+; 13C HMBC
+; 13C HSQC
+;     [use -DEDIT for multiplicity editing]
+
+;$CLASS=HighRes
+;$DIM=2D
+;$TYPE=
+;$SUBTYPE=
+;$COMMENT=
+
+;E. Kupce, T. D. W. Claridge
+;Angew. Chem. Int. Ed. 2017, 56 (39), 11779-11783
+;NOAH: NMR Supersequences for Small Molecule Analysis and Structure Elucidation
+
+;E. Kupce, T. D. W. Claridge
+;Chem. Commun. 2018, 54 (52), 7139-7142
+;Molecular structure from a single NMR supersequence
+
+#include <Avance.incl>
+#include <Grad.incl>
+#include <Delay.incl>
+
+#ifdef NUS
+define list<loopcounter> t1list=<$VCLIST>
+#endif
+
+define delay DC_HMBC_CF1
+define delay DC_HMBC_CF2
+define delay DC_HMBC_CF3
+define delay DC_HMBC_CF4
+define delay DC_HMBC_CF5
+define delay DC_HMBC_CF6
+define delay DC_HSQC1
+define delay DC_HSQC2
+define delay DC_HSQC3
+define delay DC_HSQC4
+define delay DC_HSQC5
+define delay DC_HSQC6
+"cnst41      = 2*sfo2/sfo1"                       ; gradient ratio
+"d0          = 3u"                                ; 13C t1
+"d2          = 0.5s/cnst2"                        ; JCOMP
+"d4          = 0.25s/cnst2"                       ; 13C INEPT
+"d7          = 0.5s/cnst13"                       ; 13C LR coupling evolution
+"in0         = inf1/2"                            ; 13C increment
+"p2          = p1*2"                              ; 1H hard 180
+"DC_HMBC_CF1 = d4-p14/2"                         
+"DC_HMBC_CF2 = d4+p14/2"                         
+"DC_HMBC_CF3 = 1s/(2*cnst6)-p16-d16"             
+"DC_HMBC_CF4 = 1s/(2*cnst7)-p16-d16"             
+"DC_HMBC_CF5 = d7-p16-d16-4u"                    
+"DC_HMBC_CF6 = p16+d16+p2/2+d0-p3*2/PI+4u"       
+"DC_HSQC1    = d4-p14/2"                         
+"DC_HSQC2    = d4+p14/2"                         
+"DC_HSQC3    = p16+d16+p2/2+d0-p3*2/PI+4u"       
+"DC_HSQC4    = d2+p3+p2/2"                       
+"DC_HSQC5    = DC_HSQC3+p3-p2/2"                 
+"DC_HSQC6    = DC_HSQC2-p16-d16-p3-de+p1*2/PI-8u"
+define list<gradient> GC_HMBC_CF={cnst41}
+define list<gradient> GC_HSQC={cnst41}
+"l0      = td1/4"             ; Total number of 13C t1 increments
+"l1      = 0"                 ; Running counter of 13C t1 increments
+"l2      = 0"                 ; Counter, even for echo, odd for antiecho
+"l3      = 0"                 ; Running counter for NS
+"acqt0   = 0"
+baseopt_echo
+
+1 ze
+2 30m
+3 5m do:f2
+4 50u UNBLKGRAD
+
+#ifdef NUS
+  "d0=(in0*t1list)+3u"
+#endif
+  "l3 = l3 + 1"
+
+  ; Cleanup
+  4u pl2:f2
+  (p3 ph0):f2
+  4u pl1:f1
+  p16:gp0
+  d16
+  (p1 ph0):f1
+  4u
+  p16:gp0*-1.37
+  d16
+  (p1 ph1):f1
+  4u
+  p16:gp0*0.77
+  d16
+  4u BLKGRAD
+  d1 st0
+  4u UNBLKGRAD
+
+
+  ; MODULE 1
+  ; 13C-1H HMBC
+
+  ; zz-filter
+  (p1 ph0):f1
+  DC_HMBC_CF1
+  (p14:sp3 ph0):f2
+  (p2 ph0):f1
+  DC_HMBC_CF2
+  (p1 ph0):f1
+  DC_HMBC_CF1
+  (p14:sp3 ph0):f2
+  (p2 ph0):f1
+  DC_HMBC_CF2 pl2:f2
+
+  ; second-order low-pass J-filter
+  (p1 ph0):f1
+  DC_HMBC_CF3
+  p16:gp10*-3
+  d16
+  (p3 ph7):f2
+  DC_HMBC_CF4
+  p16:gp10*2
+  d16
+  (p3 ph7):f2
+  4u
+  p16:gp10
+  d16
+  DC_HMBC_CF5  ; nJ(CH) evolution
+
+  ; coherence transfer to 13C and t1
+  (p3 ph7):f2
+  DC_HMBC_CF6
+  (p14:sp3 ph0):f2
+  4u
+  p16:gp1
+  d16
+  d0
+  (p2 ph11):f1
+  d0
+  4u
+  p16:gp1
+  d16
+  (p14:sp3 ph0):f2
+  DC_HMBC_CF6 pl2:f2
+  (p3 ph5):f2
+  (p2 ph0):f1
+  4u
+  p16:gp1*EA*GC_HMBC_CF
+  d16
+  4u
+  goscnp ph30
+
+  ; Cleanup
+  4u pl1:f1
+  4u pl2:f2
+  (p3 ph0):f2
+  4u
+  p16:gp0*1.77
+  2m st
+
+
+  ; MODULE 2
+  ; 13C-1H HSQC
+
+  ; INEPT
+  (p1 ph0):f1
+  DC_HSQC1
+  (p14:sp3 ph0):f2
+  (p2 ph0):f1
+  DC_HSQC2 pl2:f2
+  (p1 ph1):f1
+  (p3 ph5):f2
+  DC_HSQC3
+
+  ; t1 period
+#ifdef EDIT
+  (p31:sp18 ph0):f2
+#else
+  (p14:sp3 ph0):f2
+#endif /* EDIT */
+  4u
+  p16:gp4
+  d16
+  d0
+  (p2 ph11):f1
+  d0
+  4u
+  p16:gp4
+  d16
+
+  ; multiplicity editing
+#ifdef EDIT
+  DC_HSQC4
+  (p31:sp18 ph0):f2
+  DC_HSQC5
+  (p2 ph1):f1
+  d2 pl2:f2
+#else
+  (p14:sp3 ph0):f2
+  DC_HSQC3 pl2:f2
+#endif /* EDIT */
+
+  ; reverse INEPT
+  (p3 ph7):f2
+  (p1 ph0):f1
+  DC_HSQC1
+  (p14:sp3 ph0):f2
+  (p2 ph1):f1
+  4u
+  p16:gp4*EA*GC_HSQC
+  d16 pl2:f2
+  DC_HSQC6
+  (p3 ph0):f2
+  4u pl12:f2
+  go=2 ph30 cpd2:f2
+  50u do:f2
+
+  ; echo/antiecho loop
+  "l2 = l2 + 1"
+  1m igrad EA
+  30m wr #0 if #0 zd
+  lo to 3 times 2
+
+  ; t1 incrementation
+  "l1 = l1 + 1"
+#ifdef NUS
+  1m t1list.inc
+#endif
+  1m ip5*2
+  1m ip30*2
+
+  ; 13C t1 incrementation
+#ifdef NUS
+#else
+  1m id0
+#endif
+
+  lo to 4 times l0
+
+50u BLKGRAD
+exit
+
+ph0=0
+ph1=1
+ph5=0 2
+ph7=0 0 2 2
+ph11=0 0 0 0 2 2 2 2
+ph30=0 2 2 0
+
+;gpnam0: SMSQ10.100
+;gpnam1: SMSQ10.100
+;gpnam4: SMSQ10.100
+;gpnam10: SMSQ10.100
+;gpz0: 24% (for purging)
+;gpz1: 80% (HMBC CTP)
+;gpz4: 70% (13C CTP)
+;gpz10: 5% (HMBC J-filter)
+
+;WaveMaker shaped pulses (use 'wvm -a' to generate)
+;sp3:wvm:wu180C13: cawurst-20(60 kHz, 0.5 ms; L2H)
+;sp18:wvm:wu180Jcomp: cawurst-40(280 ppm; Jcomp, L2H)
+;cpd2:wvm:wudec: cawurst_d-20(220 ppm, 1.4 ms; L2H)
+
+;cnst2: = 1J(CH)
+;cnst6: = minimum 1J(CH)
+;cnst7: = maximum 1J(CH)
+;cnst13: = nJ(CH) long-range
+;cnst41: gradient ratio (2*C/H)
+;cpd2: 13C decoupling according to sequence defined by cpdprg2
+;d0: 13C t1
+;d1: relaxation delay
+;d2: 1/2J(CH)
+;d4: 1/4J(CH)
+;d7: 1/(2*nJ(CH)), long-range coupling evolution
+;d16: delay for homospoil/gradient recovery [200 us]
+;l0: total number of t1 increments
+;l1: running counter of t1 increments
+;l2: even for echo, odd for antiecho
+;l3: running counter for scan number
+;p1: f1 channel -  90 degree high power pulse
+;p2: f1 channel - 180 degree high power pulse
+;p3: f2 channel -  90 degree high power pulse
+;p14: f2 channel - 180 degree shaped pulse for inversion
+;     = 500usec for Crp60,0.5,20.1
+;p16: gradient pulse   [1 ms]
+;p31: f2 channel - 180 degree shaped pulse for inversion with J-compensation
+;pl1: f1 channel - power level for pulse (default)
+;pl2: f2 channel - power level for pulse (default)
+;pl12: f2 channel - power level for CPD/BB decoupling
+;sp3: f2 channel - shaped pulse (180 degree inversion)
+;sp18: f2 channel - shaped pulse (180 degree with J-compensation)
+;spnam3: Crp60,0.5,20.1 or WaveMaker
+;spnam18: Crp60_xfilt.2 or WaveMaker
+;aq: acquisition time
+;ds: >= 16
+;FnMODE: echo-antiecho
+;NBL: number of blocks (NOAH modules)
+;ns: 1 * n
+
+; auprog: noah_hmbc:noah_hsqc
+; ngn-2.0.6: constructed from C_HMBC_CF, C_HSQC
+; pulse programme generated on Mon Apr 05 2021 11:31:22 GMT+0100 (British Summer Time)

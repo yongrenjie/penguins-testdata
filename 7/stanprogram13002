@@ -1,0 +1,133 @@
+# 1 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+; wobble pulseprogram for spectrometers with digital receiver  -*-pulsprog-*-
+
+; $Id: pp_drx,v 1.21 2016/07/21 11:43:31 chjo Exp $(C) 2015 Bruker Biospin GmbH;
+
+# 25 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+;#define setrtp1|14|13 setrtp1|14
+
+
+# 29 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+define list <frequency> freqList=<$FQ1LIST>
+
+
+# 33 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+define delay		dwellTime
+
+define loopcounter	wbstCmplx
+
+define loopcounter      pointsForAveraging
+# 41 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+"pointsForAveraging = l1"
+
+"dwellTime = 2 * d1 * pointsForAveraging" ; for one point in wobble curve
+
+"wbstCmplx = td/2"
+# 51 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+# 51 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+	ze	
+
+		
+
+        ; use PL2 to be compatible with old wobble procedure
+# 57 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+	10u pl2:f1
+
+
+# 61 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+	10u setrtp1|14|13
+
+
+# 65 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+        ; tell receiver not to acquire until next setrtp1^1
+
+        1u setrtp1|1
+
+# 71 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+    ;********
+
+    ; next wobble curve
+
+# 77 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+    1	200m freqList.res ;speed adjustment
+
+	
+
+ 	1m adc ph0 syrec
+# 85 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+	1u reset:f1
+
+
+# 89 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+	; tell receiver to acquire WBST points 
+
+	1u setrtp1|0 ; former DWELL_ENABLE
+
+# 95 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+    ;--------------
+
+    ; now acquire WBST points
+
+# 101 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+    2   1u freqList(receive):f1
+
+
+# 105 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+        ; note that at least 150u are required here 
+
+        ; to avoid spikes after PLL change
+
+        150u freqList:f1 
+# 113 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+        ; send tune signal and acquire simultaneously
+
+	10u setrtp1|26|27
+
+# 119 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+	; now acquire a complex sample point
+
+        1u setrtp1^1
+
+# 125 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+        ; dwell time for one complex point
+
+	; of the wobble curve
+
+        dwellTime
+# 133 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+        ; tell receiver not to acquire until next setrtp1^1
+
+	1u setrtp1|1
+
+# 139 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+	1u setrtp1^26^27
+
+
+# 143 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+	1u freqList.inc
+
+
+# 147 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+	lo to 2 times wbstCmplx 
+
+
+# 151 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+    ;--------------
+
+
+# 157 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+	rcyc=1
+
+					
+
+    ;********
+# 165 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+	exit
+
+
+# 173 "/root/.topspin-BladeEpu/local_acqu/simulDirs/wobbDir/pp_drx"
+ph0 = 0
+

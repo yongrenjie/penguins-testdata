@@ -1,0 +1,15 @@
+##TITLE= Audit trail, TopSpin 4.0.8
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ C:/NMR/data/mfgrp/nmr/210405-4f-noah-hmbc-lpjf3/2001/pdata/422/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-04-05 12:36:55.332 +0100>,<CHEM\nmr-user>,<ANCHOVY-CRL>,<mvrow>,<TopSpin 4.0.8>,
+      <rsr 422 from
+       1 2001 "210405-4f-noah-hmbc-lpjf3" "C:/NMR/data/mfgrp/nmr"
+       data hash MD5: 2K
+       50 D3 E0 B7 11 86 FC 29 68 FE 65 ED 80 26 19 81>)
+##END=
+
+$$ hash MD5
+$$ CA 32 BD 86 40 BF 5D D2 C0 08 57 D5 E7 AA E8 F2

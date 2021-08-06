@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 4.0.8
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ 2021-04-05 12:36:55.332 +0100  CHEM\nmr-user@ANCHOVY-CRL
+$$ C:/NMR/data/mfgrp/nmr/210405-4f-noah-hmbc-lpjf3/2001/pdata/422/outd
+$$ process C:\Bruker\TopSpin4.0.8\prog\mod\mvrow.exe
+##$CURPLOT= <\\CHEM-Print\Spectrum>
+##$CURPRIN= <$HP LJ400 color>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_X.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

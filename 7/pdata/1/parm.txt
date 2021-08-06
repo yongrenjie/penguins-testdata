@@ -1,0 +1,39 @@
+
+Current Data Parameters
+NAME        MeCinnamate              
+EXPNO                 1              
+PROCNO                1              
+
+F2 - Acquisition Parameters
+Date_          20180618              
+Time              10.04 h            
+INSTRUM          Avance              
+PROBHD   Z116098_0219 (              
+PULPROG            zg30              
+TD                65536              
+SOLVENT           CDCl3              
+NS                   16              
+DS                    2              
+SWH            8196.722 Hz           
+FIDRES         0.250144 Hz           
+AQ            3.9976959 sec          
+RG              63.1579              
+DW               61.000 usec         
+DE                 6.50 usec         
+TE                297.9 K            
+D1           1.00000000 sec          
+TD0                   1              
+SFO1        400.1320007 MHz          
+NUC1                 1H              
+P0                 3.33 usec         
+P1                10.00 usec         
+PLW1        16.35899925 W            
+
+F2 - Processing parameters
+SI                65536              
+SF          400.1300000 MHz          
+WDW                  EM              
+SSB      0              
+LB                 0.30 Hz           
+GB       0              
+PC                 1.00              

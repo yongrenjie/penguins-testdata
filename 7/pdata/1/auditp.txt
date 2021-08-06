@@ -1,0 +1,36 @@
+##TITLE= Audit trail, TopSpin 4.0.8
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ C:/NMR/data/mfgrp/nmr/210405-4f-noah-hmbc-lpjf3/1/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-04-03 23:07:29.907 +0000>,<root>,<BladeEpu>,<go4>,<TopSpin 4.0.8>,
+      <created by zg on 'Avance' (ANCHOVY-CRL) by user 'CHEM\nmr-user'
+       on data set with UUID '553891c4-94d1-11eb-9a63-00139526d3ed'
+       started at 2021-04-03 23:07:16.508 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-04-03 23:07:29.905 +0000
+       configuration hash MD5:
+       E2 B8 0A 14 B9 E1 C4 10 67 2A 83 1D 88 C8 F4 45
+       double data hash MD5: 64K
+       18 8D 43 5E 60 F0 F6 B4 D4 46 78 9F 59 0C 1D 05>)
+(   2,<2021-04-04 00:07:32.934 +0100>,<CHEM\nmr-user>,<ANCHOVY-CRL>,<proc1d>,<TopSpin 4.0.8>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = 180.8167 PHC1 = -16.55587 SI = 64K 
+       data hash MD5: 64K
+       C3 BF 61 ED 51 06 D7 E6 7D B2 B1 9E A1 B0 DF C3>)
+(   3,<2021-04-04 00:07:33.825 +0100>,<CHEM\nmr-user>,<ANCHOVY-CRL>,<proc1d>,<TopSpin 4.0.8>,
+      <apk 
+       data hash MD5: 64K
+       44 30 9E 54 16 00 48 72 7C 8A 77 A7 26 5E 15 F4>)
+(   4,<2021-04-04 00:07:34.247 +0100>,<CHEM\nmr-user>,<ANCHOVY-CRL>,<proc1d>,<TopSpin 4.0.8>,
+      <abs ABSG = 5 
+       data hash MD5: 64K
+       3E E9 C6 95 14 A1 C1 AF 1A 67 00 84 A0 2A 22 4E>)
+(   5,<2021-04-05 11:31:00.841 +0100>,<CHEM\nmr-user>,<ANCHOVY-CRL>,<dirdata>,<TopSpin 4.0.8>,
+      <wrpa from 1 1 "210403-4f-noah-multi1h" "C:/NMR/data/mfgrp/nmr"
+       data hash MD5: 64K
+       3E E9 C6 95 14 A1 C1 AF 1A 67 00 84 A0 2A 22 4E>)
+##END=
+
+$$ hash MD5
+$$ 45 9D F3 F3 73 A8 0B 62 B1 F6 FD 4B 41 48 56 C0
