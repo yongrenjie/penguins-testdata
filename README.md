@@ -22,6 +22,7 @@ In practice, the main repository contains this one as a submodule.
 | 6 | 2D HSQC with TD2 not equal to a multiple of 1024 |
 | 7 | 1D proton with dtypa=2 |
 | 8 | 2D HMBC with dtypa=2 (from NOAH-2 BS) |
+| 9 | 2D HSQC with 25% NUS |
 | 22 | NOAH-4 MSCN on gramicidin (used for the README) |
 | 22001 | 15N HMQC from 22 |
 | 22002 | 13C HSQC from 22 |
