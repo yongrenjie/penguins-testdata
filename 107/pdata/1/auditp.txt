@@ -1,0 +1,74 @@
+##TITLE= Audit trail, TopSpin 4.0.8
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ C:/NMR/data/mfgrp/nmr/210619-4r-solvsupp-opt/35/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-06-20 13:05:22.851 +0000>,<root>,<BladeEpu>,<go4>,<TopSpin 4.0.8>,
+      <created by zg on 'Avance' (ANCHOVY-CRL) by user 'CHEM\nmr-user'
+       on data set with UUID '132f58a6-d1c8-11eb-b830-00139526d3ed'
+       started at 2021-06-20 13:04:41.359 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-06-20 13:05:22.848 +0000
+       configuration hash MD5:
+       4D FF 16 F3 17 D3 F9 DF 88 64 83 B0 16 69 CA EE
+       double data hash MD5: 64K
+       A3 15 57 CD B1 24 E9 ED F3 45 0D 31 93 1C 5E AA>)
+(   2,<2021-06-20 14:05:25.525 +0100>,<CHEM\nmr-user>,<ANCHOVY-CRL>,<proc1d>,<TopSpin 4.0.8>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -161.137 PHC1 = 267.815 SI = 64K 
+       data hash MD5: 64K
+       E7 67 00 66 83 40 44 FC 85 B3 C6 E4 AD 39 37 2A>)
+(   3,<2021-06-20 14:05:26.447 +0100>,<CHEM\nmr-user>,<ANCHOVY-CRL>,<proc1d>,<TopSpin 4.0.8>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       97 56 80 83 A2 83 07 AB 58 24 C5 E3 2B 46 B4 09>)
+$$ /Users/yongrenjie/Desktop/nmrpoise_data/datasets/Solvsupp_Opt/35/pdata/1/auditp.txt
+(   4,<2021-06-28 00:45:51.339 +0100>,<yongrenjie>,<Empoleon.local>,<proc1d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -39.089 PHC1 = 66.215 SI = 64K 
+       data hash MD5: 64K
+       8A 9A 83 D8 A7 D6 7F AE 1D C8 EA C4 1D 76 E3 4D>)
+(   5,<2021-06-28 00:45:51.378 +0100>,<yongrenjie>,<Empoleon.local>,<proc1d>,<TopSpin 4.1.1>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       C2 9A 10 F2 55 23 60 82 9F 74 A5 1D 34 8A D4 A6>)
+(   6,<2021-06-28 14:46:07.206 +0100>,<yongrenjie>,<Empoleon.local>,<proc1d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -39.089 PHC1 = 66.215 TDeff = 20K SI = 64K 
+       data hash MD5: 64K
+       45 84 EC D2 53 4A B1 26 3D 39 E4 9F 52 A6 3F 04>)
+(   7,<2021-06-28 14:46:07.262 +0100>,<yongrenjie>,<Empoleon.local>,<proc1d>,<TopSpin 4.1.1>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       9F 68 C6 F2 AD 84 D5 2A 22 AF AA B2 AB 4A D7 CD>)
+(   8,<2021-06-28 14:47:31.653 +0100>,<yongrenjie>,<Empoleon.local>,<proc1d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       efp LB = 0.5 FT_mod = 6 PKNL = 1 PHC0 = -39.089 PHC1 = 66.215 TDeff = 20K SI = 64K 
+       data hash MD5: 64K
+       52 DA AF 40 22 FE 4A F7 8A 49 47 02 2C 04 22 98>)
+(   9,<2021-06-28 14:47:31.692 +0100>,<yongrenjie>,<Empoleon.local>,<proc1d>,<TopSpin 4.1.1>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       20 F9 C3 74 DB 43 07 CF 24 B2 7E DA 0D 5B 94 63>)
+(  10,<2021-06-28 14:47:42.206 +0100>,<yongrenjie>,<Empoleon.local>,<proc1d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       efp LB = 0.5 FT_mod = 6 PKNL = 1 PHC0 = -39.089 PHC1 = 66.215 TDeff = 20K SI = 64K 
+       data hash MD5: 64K
+       52 DA AF 40 22 FE 4A F7 8A 49 47 02 2C 04 22 98>)
+(  11,<2021-06-28 14:47:42.252 +0100>,<yongrenjie>,<Empoleon.local>,<proc1d>,<TopSpin 4.1.1>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       20 F9 C3 74 DB 43 07 CF 24 B2 7E DA 0D 5B 94 63>)
+(  12,<2021-06-28 14:48:32.666 +0100>,<yongrenjie>,<Empoleon.local>,<proc1d>,<TopSpin 4.1.1>,
+      <Start of raw data processing
+       efp LB = 0.8 FT_mod = 6 PKNL = 1 PHC0 = -39.089 PHC1 = 66.215 TDeff = 20K SI = 64K 
+       data hash MD5: 64K
+       7F 48 8B B2 D8 2D 1E 38 16 98 55 1E 28 77 67 6F>)
+(  13,<2021-06-28 14:48:32.706 +0100>,<yongrenjie>,<Empoleon.local>,<proc1d>,<TopSpin 4.1.1>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       2C CA 98 73 31 7D 7C C8 D1 D4 8B 4C F9 14 0A D1>)
+##END=
+
+$$ hash MD5
+$$ 55 E3 08 55 1F 93 34 DE 11 54 20 18 60 CD DD 95

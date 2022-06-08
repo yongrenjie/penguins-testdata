@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 3.6.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ 2020-08-16 15:56:44.030 +0800  CHEM\nmr-user@JELLYFISH-CRL
+$$ C:/NMR/data/mfgroup/nmr/200816-6f-optp1/5/pdata/1/outd
+$$ process C:\Bruker\TopSpin3.6.2\prog\au\bin\iexpno.exe
+##$CURPLOT= <HP LJ400 color>
+##$CURPRIN= <$HP LJ400 color>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_H.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

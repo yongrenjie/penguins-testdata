@@ -1,0 +1,19 @@
+##TITLE= Audit trail, TopSpin 4.0.8
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/210619-4r-solvsupp-opt/2/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-06-19 17:30:21.089 +0000>,<root>,<BladeEpu>,<go4>,<TopSpin 4.0.8>,
+      <created by zg on 'Avance' (ANCHOVY-CRL) by user 'CHEM\nmr-user'
+       on data set with UUID 'ec7e2704-d123-11eb-8ad6-00139526d3ed'
+       started at 2021-06-19 17:29:38.934 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2021-06-19 17:30:21.088 +0000
+       configuration hash MD5:
+       4D FF 16 F3 17 D3 F9 DF 88 64 83 B0 16 69 CA EE
+       double data hash MD5: 64K
+       96 76 85 55 15 46 DB 71 1F 21 3A 21 1A D0 0F 77>)
+##END=
+
+$$ hash MD5
+$$ 4A 69 7C 4E 1B C6 88 04 D9 2F C5 2C 50 AC AE 64

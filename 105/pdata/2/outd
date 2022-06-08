@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 4.1.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= yongrenjie
+$$ 2020-11-20 18:07:10.512 +0000  yongrenjie@Empoleon.local
+$$ /Volumes/JonY/dphil/expn/nmr/201119-7g-noah-xspstspx/15004/pdata/2/outd
+$$ process /opt/topspin4.1.0/prog/mod/dirdata
+##$CURPLOT= <A4>
+##$CURPRIN= <$1#1#0#1#1#1#1#1#0#-1#-1#1#-1>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/2D_inv.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

@@ -24,6 +24,14 @@ In practice, the main repository contains this one as a submodule.
 | 8 | 2D HMBC with dtypa=2 (from NOAH-2 BS) |
 | 9 | 2D HSQC with 25% NUS |
 | 22 | NOAH-4 MSCN on gramicidin (used for the README) |
+| 101 | 1D 1H ferulic acid (for gallery) |
+| 102 | NOAH-4 15N seHSQC gramicidin (for gallery) |
+| 103 | NOAH-4 13C HSQC-TOCSY gramicidin (for gallery) |
+| 104 | NOAH-4 13C seHSQC gramicidin (for gallery) |
+| 105 | NOAH-4 CLIP-COSY gramicidin (for gallery) |
+| 106 | POISE solvent suppression experiments (for gallery) |
+| 107 | as above |
+| 108 | as above |
 | 22001 | 15N HMQC from 22 |
 | 22002 | 13C HSQC from 22 |
 | 22003 | COSY from 22 |

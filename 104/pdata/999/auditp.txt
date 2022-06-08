@@ -1,0 +1,15 @@
+##TITLE= Audit trail, TopSpin 4.1.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= yongrenjie
+$$ /Volumes/JonY/dphil/expn/nmr/201119-7g-noah-xspstspx/15003/pdata/999/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2020-11-20 23:26:30.193 +0000>,<yongrenjie>,<Empoleon.local>,<mvrow>,<TopSpin 4.1.0>,
+      <f2projp 1 1024 from
+       1 15003 "201119-7g-noah-xspstspx" "/Volumes/JonY/dphil/expn/nmr"
+       data hash MD5: 2K
+       75 94 02 8F 04 B1 D9 32 4B C6 0F B7 49 9C 80 9B>)
+##END=
+
+$$ hash MD5
+$$ 15 20 83 7D 08 CA 49 C1 6D 6E 96 7E 99 35 AF 66

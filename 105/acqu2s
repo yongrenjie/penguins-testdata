@@ -1,0 +1,24 @@
+##TITLE= Parameter file, TopSpin 4.1.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 9	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= yongrenjie
+$$ 2020-11-20 17:15:19.838 +0000  yongrenjie@Empoleon.local
+$$ /Volumes/JonY/dphil/expn/nmr/201119-7g-noah-xspstspx/15004/acqu2s
+$$ process /opt/topspin4.1.0/prog/au/bin/76072D61F263CD11E50D6AAB801DDF51/fixF1
+##$ACQT0= 0
+##$BF1= 699.99
+##$FnILOOP= 0
+##$FnMODE= 4
+##$NUC1= <1H>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 1024
+##$O1= 3499.95
+##$ProjAngle= 0
+##$SFO1= 699.99349995
+##$SW= 12.0251236877338
+##$SW_h= 8417.50841750842
+##$TD= 256
+##END=

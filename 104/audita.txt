@@ -1,0 +1,15 @@
+##TITLE= Audit trail, TopSpin 4.1.0
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= yongrenjie
+$$ /Volumes/JonY/dphil/expn/nmr/201119-7g-noah-xspstspx/15003/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2020-11-20 17:15:18.447 +0000>,<yongrenjie>,<Empoleon.local>,<splitx_au>,<TopSpin 4.1.0>,
+      <created by splitx 4 3. dataset from
+       /Volumes/JonY/dphil/expn/nmr/201119-7g-noah-xspstspx/15
+       data hash MD5: 1K * 256
+       72 71 7F 69 9F 5A 72 B9 66 B1 18 16 3E 74 3B BE>)
+##END=
+
+$$ hash MD5
+$$ AD 9E 51 8A 2B 00 43 9B 3D 57 F9 F5 8D 30 30 4A

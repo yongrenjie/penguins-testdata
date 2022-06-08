@@ -1,0 +1,105 @@
+##TITLE= Audit trail, TopSpin 3.6.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr-user
+$$ C:/NMR/data/mfgroup/nmr/200816-6f-optp1/5/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2020-08-16 15:57:24.498 +0800>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<go4>,<TopSpin 3.6.2>,
+      <created by zg
+	started at 2020-08-16 15:57:18.873 +0800,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       A3 AB DD 5D EE 01 19 1F 80 19 E6 5E 7F 97 44 FD
+       data hash MD5: 16K
+       24 95 87 A4 2B 56 9B 18 E8 61 7B 48 4C FC 3D DA>)
+(   2,<2020-08-16 15:59:18.340 +0800>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<proc1d>,<TopSpin 3.6.2>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = 216.5656 PHC1 = -42.29191 SI = 64K 
+       data hash MD5: 64K
+       29 98 47 37 CE 4C 4A 2E 0B FD 44 9E 24 2D BA 2F>)
+(   3,<2020-08-16 15:59:18.465 +0800>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<proc1d>,<TopSpin 3.6.2>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       00 BC EC 82 0D DE B1 30 ED 74 AC 65 5F 2B 3D B2>)
+(   4,<2020-08-16 15:59:31.183 +0800>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=pulsecal reports 11.72 us for 90, which is 46.88 us for 360 pulse.
+       It took 38 seconds. But technically pulsecal includes an rga...TITLE_END
+       data hash MD5: 64K
+       00 BC EC 82 0D DE B1 30 ED 74 AC 65 5F 2B 3D B2>)
+(   5,<2020-08-16 15:59:59.838 +0800>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=pulsecal reports 11.72 us for 90, which is 46.88 us for 360 pulse.
+       It took 38 seconds. But technically pulsecal includes an rga...
+       In a way that's not our fault -- they decided to do rga before the actual measurement...TITLE_END
+       data hash MD5: 64K
+       00 BC EC 82 0D DE B1 30 ED 74 AC 65 5F 2B 3D B2>)
+(   6,<2020-08-16 17:43:34.707 +0800>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=pulsecal reports 11.72 us for 90, which is 46.88 us for 360 pulse.
+       It took 38 seconds. But technically pulsecal includes an rga...
+       In a way that's not our fault -- they decided to do rga before the actual measurement...
+       run 1 - 90 = 11.72 -) 360 = 46.88, 38 secsTITLE_END
+       data hash MD5: 64K
+       00 BC EC 82 0D DE B1 30 ED 74 AC 65 5F 2B 3D B2>)
+(   7,<2020-08-16 17:43:56.691 +0800>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=pulsecal. Technically this includes an rga...
+       In a way that's not our fault -- they decided to do rga before the actual measurement...
+       run 1: 90 = 11.72 -) 360 = 46.88, 38 secsTITLE_END
+       data hash MD5: 64K
+       00 BC EC 82 0D DE B1 30 ED 74 AC 65 5F 2B 3D B2>)
+(   8,<2020-08-16 17:55:41.058 +0800>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=pulsecal. Technically this includes an rga...
+       In a way that's not our fault -- they decided to do rga before the actual measurement...
+       run 1: 90 = 11.72 -) 360 = 46.88, 38 secs
+       run 2: 90 = 11.78 -) 360 = 47.12, 37 secsTITLE_END
+       data hash MD5: 64K
+       00 BC EC 82 0D DE B1 30 ED 74 AC 65 5F 2B 3D B2>)
+(   9,<2020-08-16 18:00:25.114 +0800>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=pulsecal. Technically this includes an rga...
+       In a way that's not our fault -- they decided to do rga before the actual measurement...
+       did 5 runs - all ended up with 90 = 11.78 us -) 360 = 47.12 us, taking 37 secsTITLE_END
+       data hash MD5: 64K
+       00 BC EC 82 0D DE B1 30 ED 74 AC 65 5F 2B 3D B2>)
+$$ C:/NMR/data/mfgroup/nmr/200826-6f-optp1/5/pdata/1/auditp.txt
+(  10,<2020-08-26 14:49:49.563 +0800>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=pulsecal. Technically this includes an rga...
+       In a way that's not our fault -- they decided to do rga before the actual measurement...
+       did 5 runs - all ended up with 90 = 11.66 us -) 360 = 46.64 us, taking 37 secsTITLE_END
+       data hash MD5: 64K
+       00 BC EC 82 0D DE B1 30 ED 74 AC 65 5F 2B 3D B2>)
+(  11,<2020-08-26 14:49:58.750 +0800>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=pulsecal. Technically this includes an rga...
+       In a way that's not our fault -- they decided to do rga before the actual measurement...
+       did 5 runs - all ended up with 90 = 11.66 us -) 360 = 46.64 us, taking 38 secsTITLE_END
+       data hash MD5: 64K
+       00 BC EC 82 0D DE B1 30 ED 74 AC 65 5F 2B 3D B2>)
+(  12,<2020-08-26 14:51:32.729 +0800>,<CHEM\nmr-user>,<JELLYFISH-CRL>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       TITLE=pulsecal. Technically this includes an rga...
+       In a way that's not our fault -- they decided to do rga before the actual measurement...
+       did 5 runs - all ended up with 90 = 11.66 us -) 360 = 46.64 us, taking 37 secsTITLE_END
+       data hash MD5: 64K
+       00 BC EC 82 0D DE B1 30 ED 74 AC 65 5F 2B 3D B2>)
+$$ /Users/yongrenjie/Desktop/POISE_DATA/P1_Opt/3/pdata/1/auditp.txt
+(  13,<2020-09-12 10:46:41.459 +0100>,<yongrenjie>,<Empoleon.local>,<audit>,<TopSpin 4.0.9>,
+      <user comment:
+       TITLE=pulsecal. Technically this includes an rga...
+       did 5 runs - all ended up with 90 = 11.66 us -) 360 = 46.64 us, taking 37 secsTITLE_END
+       data hash MD5: 64K
+       00 BC EC 82 0D DE B1 30 ED 74 AC 65 5F 2B 3D B2>)
+(  14,<2020-09-12 10:46:52.691 +0100>,<yongrenjie>,<Empoleon.local>,<audit>,<TopSpin 4.0.9>,
+      <user comment:
+       TITLE=pulsecal
+       did 5 runs - all ended up with 90 = 11.66 us -) 360 = 46.64 us, taking 37 secsTITLE_END
+       data hash MD5: 64K
+       00 BC EC 82 0D DE B1 30 ED 74 AC 65 5F 2B 3D B2>)
+##END=
+
+$$ hash MD5
+$$ 4F 62 59 91 21 AF 51 B6 F5 EA 90 42 E5 50 31 90
